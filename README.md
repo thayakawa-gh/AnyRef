@@ -1,5 +1,5 @@
 # AnyRef
-Generic reference to any object to achieve generics-like dynamic polymorphism by non-functional templates.
+Generic reference to any object to achieve generics-like dynamic polymorphism by non-function templates.
 
 ## Example
 #### 1. AnyCRef ... generic const reference
