@@ -2,7 +2,7 @@
 Generic reference to any object to achieve generics-like dynamic polymorphism by non-functional templates.
 
 ## Example
-#### AnyCRef ... generic const reference
+#### 1. AnyCRef ... generic const reference
 ```cpp
 void FuncAnyCRef(AnyCRef a)
 {
@@ -27,7 +27,7 @@ a is float
 */
 ```
 
-#### dynamic generics
+#### 2. dynamic generics
 ```cpp
 struct Visitor1_0
 {
