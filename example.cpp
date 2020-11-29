@@ -150,7 +150,7 @@ void ExampleAnyRefGenerics2()
 	std::cout << "result of Visit1_1 with int == " << ires << std::endl;
 	std::string sres;
 	FuncAnyRefGenerics2(std::forward_as_tuple(std::string("123"), "456", sres));
-	std::cout << "result of Visit1_1 std::string int == " << sres << std::endl;
+	std::cout << "result of Visit1_1 with std::string == " << sres << std::endl;
 }
 
 int main()
